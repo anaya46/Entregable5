@@ -20,7 +20,7 @@ const submit = e => {
       <div className='container-initial'>
         <div className='greeting'>
           <h1 className='title-gretting'>Hello trainer!!</h1>
-          <img className='img-trainer' src="https://www.seekpng.com/png/full/201-2011786_red-by-xous-54-red-pokemon-trainer-png.png" alt="" />
+          <img className='img-trainer' src="https://images.wikidexcdn.net/mwuploads/wikidex/7/72/latest/20091129174930/Rojo_RFVH_%28Ilustraci%C3%B3n%29.png" alt="" />
         </div>
         <p className='title-trainer'>With your name we can start</p>
       </div>
