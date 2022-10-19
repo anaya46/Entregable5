@@ -94,7 +94,7 @@ i {
     text-align: left;
     font-weight: 800;
     font-size: 2.5rem;
-    padding-top: 50px;
+    padding-top: 10px;
     margin-left: 35px;
 }
 
@@ -118,7 +118,12 @@ i {
     background-color: #AB82FF;
     margin: 1rem;
     color: #fff;
+    transition: all 300ms;
 
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .description {
@@ -138,6 +143,10 @@ i {
     width: 120%;
     right: 10px;
     z-index: 10;
+}
+
+.img-card:hover {
+    transform: scale(1.5);
 }
 
 .name {
@@ -169,7 +178,7 @@ i {
     color: grey;
     box-shadow: -10px -10px 15px rgb(58 58 58 / 9%), 10px 10px 15px rgb(66 66 66 / 35%);
     transition: .5s;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .button-search {
@@ -182,14 +191,15 @@ i {
     border: 0;
     cursor: pointer;
     outline: 0;
-    background: #AB82FF;
+    background: #6c79db;
     color: #fff;
 }
 
 .form {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
-.return{
+
+.return {
     position: absolute;
     top: 10px;
     left: 60px;
@@ -197,20 +207,24 @@ i {
     background: none;
     border: none;
 }
-.fa-solid, .fas {
-    font-size: 2rem;
+
+.fa-solid,
+.fas {
+    font-size: 1.5rem;
     font-weight: 900;
 }
-.logo{
+
+.logo {
     width: 200px;
     height: auto;
     display: block;
     position: relative;
     max-width: 100%;
     margin-top: 3rem;
-    
+
 }
-.container-detail{
+
+.container-detail {
     width: auto;
     margin-left: 1em;
     margin-right: 1em;
@@ -223,18 +237,20 @@ i {
     justify-content: center;
 
 }
-.detail-ppal{
+
+.detail-ppal {
     position: relative;
     background: #fff;
     margin-top: 8rem;
     padding: 1em;
     margin-left: 1rem;
     margin-right: 1rem;
-    border: 1px solid rgba(34,36,38,.15);
-    
+    border: 1px solid rgba(34, 36, 38, .15);
+
 
 }
-.img-pokemon{
+
+.img-pokemon {
     width: 300px;
     height: auto;
     margin-left: auto;
@@ -244,9 +260,15 @@ i {
     display: inline-block;
     max-width: 100%;
     margin-top: -130px;
-    
+    transition: all 300ms;
+
 }
-.wei-hei{
+
+.img-pokemon:hover {
+    transform: scale(1.5);
+}
+
+.wei-hei {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -254,7 +276,8 @@ i {
     padding: 0;
     justify-content: center;
 }
-.info-weihei{
+
+.info-weihei {
     width: 50%;
     text-align: center;
     padding-top: 1rem;
@@ -266,25 +289,28 @@ i {
     vertical-align: top;
     font-size: 1.7rem;
 }
-.font-clear{
+
+.font-clear {
     font-size: 1.1rem;
     line-height: 1.2em;
-    color: rgba(0,0,0,.6);
+    color: rgba(0, 0, 0, .6);
     font-weight: 400;
 }
-h1{
+
+h1 {
     font-size: 2rem;
     border: none;
     padding: 0;
-    font-family: Lato,"Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 1.2em;
     text-transform: none;
-    color: rgba(0,0,0,.87);
+    color: rgba(0, 0, 0, .87);
     min-height: 1rem;
     margin-top: -0.14rem;
 }
-.id{
+
+.id {
     font-size: 1rem;
     margin-right: 0;
     margin-left: 0;
@@ -292,17 +318,18 @@ h1{
 }
 
 
-.rectangulo{
-    width: 100%!important;
-    margin: 0!important;
-    box-shadow: none!important;
+.rectangulo {
+    width: 100% !important;
+    margin: 0 !important;
+    box-shadow: none !important;
     padding-right: 1rem;
-    padding-left: 1rem; 
+    padding-left: 1rem;
     position: relative;
     display: inline-block;
     vertical-align: top;
 }
-.card1{
+
+.card1 {
     font-size: 1rem;
     position: relative;
     background: #fff;
@@ -310,9 +337,10 @@ h1{
     margin: 1rem 0;
     padding: 1em;
     border-radius: 0.28571429rem;
-    border: 1px solid rgba(34,36,38,.15);
+    border: 1px solid rgba(34, 36, 38, .15);
 }
-.types-list{
+
+.types-list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -320,7 +348,8 @@ h1{
     padding: 0;
     font-size: 1rem;
 }
-.type{
+
+.type {
     display: inline-block;
     flex-grow: 1;
     text-align: center;
@@ -329,8 +358,8 @@ h1{
     vertical-align: top;
 }
 
-.title-type{
-    color: hsla(0,0%,100%,.9);
+.title-type {
+    color: hsla(0, 0%, 100%, .9);
     font-size: 1rem;
     position: relative;
     margin: 1rem 0;
@@ -340,7 +369,7 @@ h1{
     font-family: sans-serif;
 }
 
-.habilitie{
+.habilitie {
     text-align: center;
     font-size: 1rem;
     position: relative;
@@ -349,13 +378,14 @@ h1{
     margin: 1rem 0;
     padding: 1em;
     border-radius: 0.3rem;
-    border: 1px solid rgba(34,36,38,.15);
+    border: 1px solid rgba(34, 36, 38, .15);
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 400;
 }
-.list-moves{
+
+.list-moves {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -365,32 +395,37 @@ h1{
     font-weight: 400;
     gap: 0.5rem;
 }
-.move{
-    border: 1px solid rgba(34,36,38,.15);
+
+.move {
+    border: 1px solid rgba(34, 36, 38, .15);
     border-radius: 1rem;
     padding: 0.5rem;
     font-size: 1rem;
     height: 2rem;
     align-items: center;
-   
+
 }
 
 
-.subt{
+.subt {
     margin-left: 3rem;
     margin-right: 3rem;
-    border: 2px solid rgba(34,36,38,.15);
+    border: 2px solid rgba(34, 36, 38, .15);
     background-color: #DCDCDC;
     border-radius: 5px;
     font-weight: 500;
 
 }
-.pagination{
+
+.pagination {
     margin-top: 30px;
     margin-bottom: 40px;
- }
- .pagination button {
-    border: 0;
+
+
+}
+
+.pag {
+    border: none;
     background: #6c79db;
     color: #fff;
     box-shadow: 2px 2px 8px grey;
@@ -406,6 +441,25 @@ h1{
     line-height: 1.15;
 }
 
+.selected {
+    border: none;
+    box-shadow: 2px 2px 8px grey;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    cursor: pointer;
+    outline: 0;
+    transition: .2s;
+    line-height: 1.15;
+    background: #99CC33;
+    color: black;
+}
+
+
+
 
 @media(min-width: 576px) {
 
@@ -420,7 +474,7 @@ h1{
     .container {
         max-width: 768px;
     }
-    
+
 
     .card-container {
         display: grid;
@@ -444,54 +498,62 @@ h1{
     }
 
 }
+
 @media(min-width: 992px) {
 
     .container {
         max-width: 992px;
     }
 
-    .container-detail{
+    .container-detail {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
 
     }
-    .logo{
+
+    .logo {
         grid-column: 1 / 2;
         margin-left: 35px;
         width: 75%;
     }
-    .detail-ppal{
+
+    .detail-ppal {
         grid-column: 1 / 3;
         margin-top: 40px;
-      
+
     }
-    .rectangulo{
+
+    .rectangulo {
         grid-column: 1 / 2;
     }
 
- .abilities{
+    .abilities {
         grid-column: 2 / 3;
     }
- .stats{
-    grid-column: 1 / 3;
- } 
- .movet{
-    grid-column: 3 / 4;
-    grid-row: 3 / 7;
-    margin-top: 55px;
-   
- }  
- .moves{
-    height: 95%;
-    margin-top: 42px;
-    
- }
- .list-moves{
-    height: 1000px;
-    overflow-y: scroll;
- }
- 
+
+    .stats {
+        grid-column: 1 / 3;
+    }
+
+    .movet {
+        grid-column: 3 / 4;
+        grid-row: 3 / 7;
+        margin-top: 55px;
+
+    }
+
+    .moves {
+        height: 95%;
+        margin-top: 42px;
+
+    }
+
+    .list-moves {
+        height: 1000px;
+        overflow-y: scroll;
+    }
+
 
 }
 
@@ -500,7 +562,7 @@ h1{
 
     .container {
         max-width: 1300px;
-        
+
     }
 
     .card-container {
@@ -523,7 +585,7 @@ h1{
 
     .img-card {
         width: 140%;
-        
+
 
 
     }
